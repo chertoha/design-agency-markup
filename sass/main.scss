@@ -1,5 +1,18 @@
 @import './utils/vars';
 @import './utils/placeholders';
 
+@import './base';
 @import './components/common/section';
 @import './components/common/container';
+
+
+@import './components/common/nav-list';
+@import './components/common/start-button';
+
+@import './components/hero';
+
+@import './components/common/card';
+@import './components/brands';
+
+
+@import './components/page-footer';

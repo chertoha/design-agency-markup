@@ -1,0 +1,23 @@
+.page-footer {
+    // color: rgba(255, 255, 255, 0.8);
+    background-color: $footer-background-color;
+}
+
+.page-footer__nav-list {
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.copyright,
+.conditions__link {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.copyright {
+    line-height: 1.67;
+}
+
+.conditions__link {
+    line-height: 1.33;
+}

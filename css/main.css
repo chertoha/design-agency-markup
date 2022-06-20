@@ -1,6 +1,66 @@
+body {
+  cursor: url(../images/cursor.svg), pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #595E64;
+  background-color: #F9F8FF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .section {
   padding-top: 185px;
   padding-bottom: 185px;
+  line-height: 1.22;
+}
+
+.section__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #00A077;
+  opacity: 0.5;
+}
+.section__title--inverse {
+  color: #ffffff;
+}
+
+.section__sub-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  color: #3B3E43;
+}
+.section__sub-title--inverse {
+  color: #ffffff;
+}
+
+.section__text {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #ffffff;
 }
 
 .container {
@@ -9,4 +69,84 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.nav-list {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.nav-list__link {
+  color: inherit;
+}
+
+.start-button {
+  padding: 20px 50px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.48;
+  letter-spacing: 0.02em;
+  color: #57B3FE;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 60px;
+}
+
+.hero {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 1.2;
+}
+
+.hero__text {
+  font-size: 20px;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.36;
+  color: #3B3E43;
+}
+
+.text-attention {
+  font-weight: 700;
+}
+
+.brand__text {
+  font-size: 16px;
+  line-height: 1.48;
+  color: #424A4D;
+}
+
+.page-footer {
+  background-color: #0D0D0D;
+}
+
+.page-footer__nav-list {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.copyright,
+.conditions__link {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.copyright {
+  line-height: 1.67;
+}
+
+.conditions__link {
+  line-height: 1.33;
 }/*# sourceMappingURL=main.css.map */

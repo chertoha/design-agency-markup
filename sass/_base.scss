@@ -1,0 +1,32 @@
+body {
+
+    cursor: url(../images/cursor.svg), pointer;
+
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $text-default-dark-color;
+
+    background-color: $background-primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

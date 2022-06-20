@@ -1,0 +1,14 @@
+.start-button {
+    padding: 20px 50px;
+
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.48;
+    letter-spacing: 0.02em;
+
+    color: #57B3FE;
+    background-color: $background-default-light-color;
+    border: none;
+    border-radius: 60px;
+}

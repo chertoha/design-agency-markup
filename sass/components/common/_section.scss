@@ -1,4 +1,36 @@
 .section {
     padding-top: 185px;
     padding-bottom: 185px;
+    line-height: 1.22;
+}
+
+.section__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: $title-primary-color;
+    opacity: 0.5;
+
+    &--inverse {
+        color: $text-default-light-color;
+    }
+}
+
+.section__sub-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    color: $sub-title-dark-color;
+
+    &--inverse {
+        color: $text-default-light-color;
+    }
+}
+
+.section__text {
+    font-size: 20px;
+    line-height: 1.7;
+    color: $text-default-light-color;
 }
