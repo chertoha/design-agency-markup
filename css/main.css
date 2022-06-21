@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #595E64;
-  background-color: #F9F8FF;
+  background-color: teal;
 }
 
 h1,
@@ -26,6 +26,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.page-header {
+  display: flex;
+}
+
+.logo {
+  display: block;
 }
 
 .section {
@@ -75,6 +83,7 @@ a {
   color: #ffffff;
   font-weight: 700;
   line-height: 1;
+  display: flex;
 }
 
 .nav-list__link {
@@ -149,4 +158,70 @@ a {
 
 .conditions__link {
   line-height: 1.33;
+}
+
+.page {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.decore {
+  position: absolute;
+  top: -273px;
+  left: -456px;
+  z-index: -999;
+  width: 2791px;
+  height: 1346px;
+  background: linear-gradient(249.78deg, #35D3FF -0.64%, #A963FB 103.6%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.decore__left-top {
+  position: absolute;
+  left: 96px;
+  top: 238px;
+  width: 704px;
+  height: 704px;
+  background-color: #8281FF;
+  border-radius: 50%;
+  clip: rect(0, 704px, 352px, 352px);
+}
+
+.decore__left-bottom {
+  position: absolute;
+  bottom: -211px;
+  left: 692px;
+  width: 550px;
+  height: 550px;
+  background-color: #8281FF;
+  border-radius: 50%;
+  clip: rect(0, 225px, 225px, 0);
+}
+
+.decore__right-top {
+  position: absolute;
+  top: 273px;
+  right: 415px;
+  transform: translate(50%, -50%) rotate(-45deg);
+  width: 184px;
+  height: 184px;
+  background-color: #36BDFF;
+}
+
+.decore__right-bottom {
+  position: absolute;
+  bottom: 33px;
+  right: 1031px;
+  transform: translate(100%, 50%);
+  width: 1276px;
+  height: 1276px;
+  background-color: #36BDFF;
+  border-radius: 50%;
+  clip: rect(0, 638px, 638px, 0);
 }/*# sourceMappingURL=main.css.map */
