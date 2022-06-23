@@ -1,14 +1,21 @@
+.nav {}
+
 .nav-list {
     color: $text-default-light-color;
     font-weight: 700;
     line-height: 1;
 
     display: flex;
+
+
 }
 
-.nav-list__item {}
+.nav-list__item {
+    @include set-items-margin (right, 32px);
+}
 
 .nav-list__link {
-
+    display: block;
+    padding: 22px 0;
     color: inherit;
 }

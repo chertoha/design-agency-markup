@@ -1,4 +1,10 @@
-.card {}
+.card {
+
+    height: 330px;
+
+    background-color: $background-default-light-color;
+    border-radius: 15px;
+}
 
 .card__icon {}
 

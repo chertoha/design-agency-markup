@@ -1,0 +1,30 @@
+.feature {}
+
+.feature__title-margin {
+    margin-bottom: 24px;
+}
+
+.feature__sub-title-margin {
+    margin-bottom: 32px;
+}
+
+.feature__card-set {
+    margin-top: -30px;
+    // margin-top: calc($feature-section-card-margin-value * -1);
+    margin-left: -30px;
+    // margin-left: calc($feature-section-card-margin-value * -1);
+    flex-wrap: wrap;
+}
+
+.feature__card {
+    // margin: 15px;
+    margin-top: 30px;
+    // margin-top: $feature-section-card-margin-value;
+    margin-left: 30px;
+    // margin-left: $feature-section-card-margin-value;
+
+    // width: 150px;
+    // flex-basis: calc((100% - ($container-side-paddings-value * 2) - ($feature-section-column-number - 1) * $feature-section-card-margin-value) / $feature-section-column-number);
+    flex-basis: calc((100% - 90px) / 3);
+    // flex-basis: 370px;
+}

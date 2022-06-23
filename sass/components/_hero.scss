@@ -1,9 +1,11 @@
 .hero {
+
     text-align: center;
     color: $text-default-light-color;
 }
 
 .hero__title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 68px;
     line-height: 1.2;
@@ -11,6 +13,7 @@
 }
 
 .hero__text {
+    margin-bottom: 41px;
     font-size: 20px;
     line-height: 1.7;
     opacity: 0.8;
@@ -18,4 +21,13 @@
 
 
 
-.dashboard {}
+.dashboard {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1044px;
+    height: 786px;
+    background-color: #503E9D;
+
+    opacity: 0.15;
+}

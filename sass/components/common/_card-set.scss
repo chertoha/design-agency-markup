@@ -1,0 +1,8 @@
+.card-set {
+    display: flex;
+
+    &--column {
+        flex-direction: column;
+    }
+
+}

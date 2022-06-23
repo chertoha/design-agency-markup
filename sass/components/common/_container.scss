@@ -1,7 +1,7 @@
 .container {
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1200px;
+    padding-left: $container-side-paddings-value;
+    padding-right: $container-side-paddings-value;
 
     margin-left: auto;
     margin-right: auto;

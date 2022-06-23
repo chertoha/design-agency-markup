@@ -16,6 +16,10 @@
     &--inverse {
         color: $text-default-light-color;
     }
+
+    &--align-left {
+        text-align: left;
+    }
 }
 
 .section__sub-title {
@@ -26,6 +30,10 @@
 
     &--inverse {
         color: $text-default-light-color;
+    }
+
+    &--align-left {
+        text-align: left;
     }
 }
 
