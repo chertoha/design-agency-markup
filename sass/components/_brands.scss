@@ -1,5 +1,46 @@
+.brand__title {
+    margin-bottom: 24px;
+}
+
+.brand__sub-title {
+    margin-bottom: 32px;
+}
+
 .brand__text {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-size: 16px;
     line-height: 1.48;
     color: #424A4D;
+}
+
+.brand-list {
+    margin-bottom: 40px;
+
+    margin-left: -110px;
+    margin-top: -25px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.brand-list__item {
+    @extend %flex-center;
+
+    margin-left: 110px;
+    margin-top: 25px;
+    flex-basis: calc((100% - (5 * 110px)) / 5);
+}
+
+.brand-list__link {
+    display: block;
+
+}
+
+.brand-list__icon {
+    display: block;
+
 }

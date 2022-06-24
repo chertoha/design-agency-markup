@@ -34,7 +34,7 @@
 
       <!-- Header -->
       <header id="page-header" class="page-header">
-        <a class="logo page-header__logo" href="./index.html"
+        <a class="link logo page-header__logo" href="./index.html"
           ><svg class="" width="259" height="61">
             <use href="./images/icons.svg#logo"></use>
           </svg>
@@ -42,26 +42,28 @@
 
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-list__item"><a class="nav-list__link" href="#page-header">Home</a></li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#section-feature">Your benefits</a>
+              <a class="link nav-list__link" href="#page-header">Home</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#section-how-it-works">Our process</a>
+              <a class="link nav-list__link" href="#section-feature">Your benefits</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#our-works">Our works</a>
+              <a class="link nav-list__link" href="#section-how-it-works">Our process</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#section-brand">Testimonials</a>
+              <a class="link nav-list__link" href="#our-works">Our works</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link" href="#section-work-with-us">Start a project</a>
+              <a class="link nav-list__link" href="#section-brand">Testimonials</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="link nav-list__link" href="#section-work-with-us">Start a project</a>
             </li>
           </ul>
         </nav>
 
-        <button class="start-button">Get started</button>
+        <button class="link start-button">Get started</button>
       </header>
 
       <main class="main-block">
@@ -71,26 +73,29 @@
           <div class="container">
             <h1 class="hero__title">A Digital Product Design Agency</h1>
             <p class="hero__text">We are Creative and Professional Digital Agency</p>
-            <button class="start-button">Get started</button>
+            <button class="link start-button">Get started</button>
             <div class="dashboard"></div>
           </div>
         </section>
 
         <!-- Features Section-->
         <section id="section-feature" class="section feature">
+          <div class="feature__decore feature__decore--left"></div>
+          <div class="feature__decore feature__decore--right"></div>
+
           <div class="container">
-            <h2 class="section__title section__title--align-left feature__title-margin">
-              features
-            </h2>
-            <h3 class="section__sub-title section__sub-title--align-left feature__sub-title-margin">
+            <h2 class="section__title section__title--align-left feature__title">features</h2>
+            <h3 class="section__sub-title section__sub-title--align-left feature__sub-title">
               We are here to help<br />
               you with
             </h3>
             <ul class="card-set feature__card-set">
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
+                <div class="card_icon feature__icon feature__icon--chart">
+                  <svg width="28" height="28" fill="#FEAD86">
+                    <use href="./images/icons.svg#chart"></use>
+                  </svg>
+                </div>
                 <h4 class="card__title">Grow your business</h4>
                 <p class="card__text">
                   <strong class="text-attention"> The magic wand </strong>for success is in figuring
@@ -100,62 +105,69 @@
               </li>
 
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
-                <h4 class="card__title">Grow your business</h4>
+                <div class="card_icon feature__icon feature__icon--discount">
+                  <svg width="28" height="28" fill="#51A690">
+                    <use href="./images/icons.svg#discount"></use>
+                  </svg>
+                </div>
+                <h4 class="card__title">Drive more sales</h4>
                 <p class="card__text">
-                  <strong class="text-attention"> The magic wand </strong>for success is in figuring
-                  out how to bring in the profits and ensure the capacity needed to sustain that
-                  growth for posterity.
+                  A potential customer, once lost, is hard to retain back. But
+                  <strong class="text-attention">keeping some critical </strong>
+                  factors in mind, we can, for sure, use these loyalty programs as customer
+                  retention tools.
                 </p>
               </li>
 
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
-                <h4 class="card__title">Grow your business</h4>
+                <div class="card_icon feature__icon feature__icon--users">
+                  <svg width="28" height="28" fill="#FFCF00">
+                    <use href="./images/icons.svg#users"></use>
+                  </svg>
+                </div>
+                <h4 class="card__title">Handle by Expert</h4>
                 <p class="card__text">
-                  <strong class="text-attention"> The magic wand </strong>for success is in figuring
-                  out how to bring in the profits and ensure the capacity needed to sustain that
-                  growth for posterity.
+                  We know how we candevelop deep, trust-based relationships with our clients, and
+                  work together more collaboratively
                 </p>
               </li>
 
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
-                <h4 class="card__title">Grow your business</h4>
+                <div class="card_icon feature__icon feature__icon--search">
+                  <svg width="28" height="28" fill="#00A198">
+                    <use href="./images/icons.svg#users"></use>
+                  </svg>
+                </div>
+                <h4 class="card__title">UX Research</h4>
                 <p class="card__text">
-                  <strong class="text-attention"> The magic wand </strong>for success is in figuring
-                  out how to bring in the profits and ensure the capacity needed to sustain that
-                  growth for posterity.
+                  UX research is the systematic study of target users and their requirements, to add
+                  realistic contexts and insights to design processes.
                 </p>
               </li>
 
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
-                <h4 class="card__title">Grow your business</h4>
+                <div class="card_icon feature__icon feature__icon--graph">
+                  <svg width="28" height="28" fill="#75578E">
+                    <use href="./images/icons.svg#graph"></use>
+                  </svg>
+                </div>
+                <h4 class="card__title">Business Audit</h4>
                 <p class="card__text">
-                  <strong class="text-attention"> The magic wand </strong>for success is in figuring
-                  out how to bring in the profits and ensure the capacity needed to sustain that
-                  growth for posterity.
+                  An audit examines your business's financial records to verify they are accurate.
+                  This is done through a systematic review of your transactions.
                 </p>
               </li>
 
               <li class="card feature__card">
-                <svg class="card__icon" width="28" height="28">
-                  <use href="./images/icons.svg#chart"></use>
-                </svg>
-                <h4 class="card__title">Grow your business</h4>
+                <div class="card_icon feature__icon feature__icon--bag">
+                  <svg width="28" height="28" fill="#0985B9">
+                    <use href="./images/icons.svg#bag"></use>
+                  </svg>
+                </div>
+                <h4 class="card__title">Data tracking</h4>
                 <p class="card__text">
-                  <strong class="text-attention"> The magic wand </strong>for success is in figuring
-                  out how to bring in the profits and ensure the capacity needed to sustain that
-                  growth for posterity.
+                  The hardware and software, which when used together allows you to know where
+                  something is at any point in time
                 </p>
               </li>
             </ul>
@@ -163,21 +175,32 @@
         </section>
 
         <!-- How it works Section -->
-        <section id="section-how-it-works" class="section">
+        <section id="section-how-it-works" class="section works">
+          <div class="works__decore works__decore--top-left"></div>
+          <div class="works__decore works__decore--bottom-left"></div>
+          <div class="works__decore works__decore--center"></div>
+          <div class="works__decore works__decore--bottom-center"></div>
+          <div class="works__decore works__decore--bottom-right"></div>
+
           <div class="container">
-            <h2 class="section__title section__title--inverse">how it works</h2>
-            <h3 class="section__sub-title section__sub-title--inverse">Our Process</h3>
-            <p class="section__text">
+            <h2 class="section__title section__title--inverse works__title">how it works</h2>
+            <h3 class="section__sub-title section__sub-title--inverse works__sub-title">
+              Our Process
+            </h3>
+            <p class="section__text works__text">
               We know the best solution for all of your business ideas and we can help you solve all
               business problems
             </p>
-            <ul id="our-works" class="card-set">
-              <li class="card">
-                <div class="card__image-wrapper"></div>
-                <div class="card__content">
-                  <svg class="card__icon" width="20" height="20">
-                    <use href="./images/icons.svg#search"></use>
-                  </svg>
+            <ul id="our-works" class="card-set card-set--column">
+              <li class="card works-card">
+                <div class="works-card__item"></div>
+                <div class="works-card__item works-card__content">
+                  <div class="works__icon works__icon--search">
+                    <svg width="28" height="28" fill="#6E9CFD">
+                      <use href="./images/icons.svg#search"></use>
+                    </svg>
+                  </div>
+
                   <h4 class="card__title">Business Audit</h4>
                   <p class="card__text">
                     An audit examines your business's financial records to verify they are accurate.
@@ -186,27 +209,33 @@
                 </div>
               </li>
 
-              <li class="card">
-                <div class="card__image-wrapper"></div>
-                <div class="card__content">
-                  <svg class="card__icon" width="20" height="20">
-                    <use href="./images/icons.svg#folder"></use>
-                  </svg>
-                  <h4 class="card__title">Business Audit</h4>
+              <li class="card works-card">
+                <div class="works-card__item"></div>
+                <div class="works-card__item works-card__content">
+                  <div class="works__icon works__icon--folder">
+                    <svg width="28" height="28" fill="#8E7EFC">
+                      <use href="./images/icons.svg#folder"></use>
+                    </svg>
+                  </div>
+
+                  <h4 class="card__title">Data tracking</h4>
                   <p class="card__text">
-                    An audit examines your business's financial records to verify they are accurate.
-                    This is done through a systematic review of your transactions.
+                    The hardware and software, which when used together allows you to know where
+                    something is at any point in time
                   </p>
                 </div>
               </li>
 
-              <li class="card">
-                <div class="card__image-wrapper"></div>
-                <div class="card__content">
-                  <svg class="card__icon" width="20" height="20">
-                    <use href="./images/icons.svg#document"></use>
-                  </svg>
-                  <h4 class="card__title">Business Audit</h4>
+              <li class="card works-card">
+                <div class="works-card__item"></div>
+                <div class="works-card__item works-card__content">
+                  <div class="works__icon works__icon--document">
+                    <svg width="28" height="28" fill="#4DBCFE">
+                      <use href="./images/icons.svg#document"></use>
+                    </svg>
+                  </div>
+
+                  <h4 class="card__title">Results</h4>
                   <p class="card__text">
                     An audit examines your business's financial records to verify they are accurate.
                     This is done through a systematic review of your transactions.
@@ -220,12 +249,68 @@
         <!-- Brands Section -->
         <section id="section-brand" class="section brand">
           <div class="container">
-            <h2 class="section__title">BRANDS</h2>
-            <h3 class="section__sub-title">We work with thousands of the world’s leading brands</h3>
+            <h2 class="section__title brand__title">BRANDS</h2>
+            <h3 class="section__sub-title brand__sub-title">
+              We work with thousands of the world’s leading brands
+            </h3>
             <ul class="brand-list">
               <li class="brand-list__item">
                 <a href="" class="brand-list__link">
                   <img class="brand-list__icon" src="./images/brands/brand_1.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_2.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_3.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_4.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_5.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_6.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_7.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_8.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_9.png" alt="Mazda" />
+                </a>
+              </li>
+
+              <li class="brand-list__item">
+                <a href="" class="brand-list__link">
+                  <img class="brand-list__icon" src="./images/brands/brand_10.png" alt="Mazda" />
                 </a>
               </li>
             </ul>
@@ -236,20 +321,26 @@
         </section>
 
         <!-- Work with us Section -->
-        <section id="section-work-with-us" class="section">
-          <div class="container">
-            <div class="section__content">
-              <h2 class="section__title section__title--inverse">start with us</h2>
-              <h3 class="section__sub-title section__sub-title--inverse">
+        <section id="section-work-with-us" class="section start">
+          <div class="container start__container">
+            <div class="start__item start__content">
+              <h2
+                class="section__title section__title--inverse section__title--align-left start__title"
+              >
+                start with us
+              </h2>
+              <h3
+                class="section__sub-title section__sub-title--inverse section__sub-title--align-left start__sub-title"
+              >
                 Start working faster today
               </h3>
-              <p class="section__text">
+              <p class="section__text section__text--align-left start__text">
                 We know the best solution for all of your business ideas and we can help you solve
                 all business problems
               </p>
-              <button class="start-button">Get started</button>
+              <button class="link start-button">Get started</button>
             </div>
-            <div class="section__image-wrapper"></div>
+            <div class="start__item start__image-wrapper"></div>
           </div>
         </section>
       </main>
@@ -258,7 +349,7 @@
         <div class="container">
           <!-- Footer Top Row -->
           <div class="page-footer__top-row">
-            <a class="logo" href="./index.html"
+            <a class="link logo page-footer__logo" href="./index.html"
               ><svg class="" width="176" height="41">
                 <use href="./images/icons.svg#logo"></use>
               </svg>
@@ -267,48 +358,43 @@
             <nav class="nav page-footer__nav">
               <ul class="nav-list page-footer__nav-list">
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#page-header">Home</a>
                 </li>
-
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#section-feature">Your benefits</a>
                 </li>
-
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#section-how-it-works">Our process</a>
                 </li>
-
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#our-works">Our works</a>
                 </li>
-
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#section-brand">Testimonials</a>
                 </li>
-
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="">Home</a>
+                  <a class="link nav-list__link" href="#section-work-with-us">Start a project</a>
                 </li>
               </ul>
             </nav>
 
-            <ul class="socials">
+            <ul class="socials page-footer__socials">
               <li class="socials__item">
-                <a class="socials__link" href="" aria-label="facebook">
+                <a class="link socials__link" href="" aria-label="facebook">
                   <svg class="socials__icon" width="20" height="20">
                     <use href="./images/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials__item">
-                <a class="socials__link" href="" aria-label="facebook">
+                <a class="link socials__link" href="" aria-label="facebook">
                   <svg class="socials__icon" width="20" height="20">
                     <use href="./images/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="socials__item">
-                <a class="socials__link" href="" aria-label="facebook">
+                <a class="link socials__link" href="" aria-label="facebook">
                   <svg class="socials__icon" width="20" height="20">
                     <use href="./images/icons.svg#twitter"></use>
                   </svg>
@@ -322,11 +408,11 @@
             <p class="copyright">&copy; 2021 Company</p>
             <ul class="conditions">
               <li class="conditions__item">
-                <a href="" class="conditions__link">Privacy policy</a>
+                <a href="" class="link conditions__link">Privacy policy</a>
               </li>
 
               <li class="conditions__item">
-                <a href="" class="conditions__link">Term of service</a>
+                <a href="" class="link conditions__link">Term of service</a>
               </li>
             </ul>
           </div>

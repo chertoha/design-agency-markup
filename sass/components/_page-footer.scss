@@ -1,6 +1,20 @@
 .page-footer {
-    // color: rgba(255, 255, 255, 0.8);
+    padding-top: 80px;
+    padding-bottom: 35px;
     background-color: $footer-background-color;
+}
+
+
+
+.page-footer__top-row {
+    @extend %flex-center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.page-footer__bottom-row {
+    @extend %flex-between;
+    padding-top: 30px;
 }
 
 .page-footer__nav-list {
@@ -20,4 +34,26 @@
 
 .conditions__link {
     line-height: 1.33;
+}
+
+.page-footer__logo {
+    height: 41px;
+    margin-right: 80px;
+
+    fill: rgba(255, 255, 255, 0.8);
+
+
+}
+
+.page-footer__socials {
+    margin-left: auto;
+}
+
+
+.conditions {
+    @extend %flex-center;
+}
+
+.conditions__item {
+    @include set-items-margin (right, 24px);
 }

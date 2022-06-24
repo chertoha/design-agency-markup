@@ -1,0 +1,21 @@
+.socials {
+    @extend %flex-center;
+}
+
+.socials__item {
+
+    @include set-items-margin (right, 20px);
+}
+
+.socials__link {
+    width: 20px;
+    height: 20px;
+
+    @extend %flex-center;
+
+    color: #CFCFCF;
+}
+
+.socials__icon {
+    fill: currentColor;
+}

@@ -1,22 +1,31 @@
-.feature {}
+.feature {
+    position: relative;
+    // background-color: teal;
+}
 
-.feature__title-margin {
+.feature__title {
     margin-bottom: 24px;
 }
 
-.feature__sub-title-margin {
+.feature__sub-title {
     margin-bottom: 32px;
 }
 
 .feature__card-set {
+
+
     margin-top: -30px;
     // margin-top: calc($feature-section-card-margin-value * -1);
     margin-left: -30px;
     // margin-left: calc($feature-section-card-margin-value * -1);
+
     flex-wrap: wrap;
 }
 
 .feature__card {
+    padding: 50px 25px 50px 40px;
+    min-height: 330px;
+
     // margin: 15px;
     margin-top: 30px;
     // margin-top: $feature-section-card-margin-value;
@@ -25,6 +34,63 @@
 
     // width: 150px;
     // flex-basis: calc((100% - ($container-side-paddings-value * 2) - ($feature-section-column-number - 1) * $feature-section-card-margin-value) / $feature-section-column-number);
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - (30px * 3)) / 3);
     // flex-basis: 370px;
+
+
+}
+
+
+
+.feature__icon {
+    width: 50px;
+    height: 50px;
+    @extend %flex-center;
+    border-radius: 15px;
+
+    $icons-bg-map: ("chart" #FFE7DB "0px 10px 20px rgba(197, 158, 145, 0.1)",
+        "discount" #E7F2EF "0px 10px 20px rgba(6, 77, 58, 0.03)",
+        "users" #FAF3D8 "0px 10px 20px rgba(190, 166, 115, 0.05)",
+        "search" #C0F2EF "0px 10px 20px rgba(197, 158, 145, 0.1)",
+        "graph" #EDE7F2 "0px 10px 20px rgba(6, 77, 58, 0.03)",
+        "bag" #D8F0FA "0px 10px 20px rgba(190, 166, 115, 0.05)"
+    );
+
+    @each $icon-name,
+    $icon-bg-color,
+    $icon-shadow in $icons-bg-map {
+        &--#{$icon-name} {
+            background-color: $icon-bg-color;
+            box-shadow: #{$icon-shadow};
+        }
+    }
+
+}
+
+
+.feature__decore {
+    position: absolute;
+
+    &--left {
+        top: 297px;
+        left: -97px;
+        width: 546px;
+        height: 546px;
+        border-top: 273px solid rgba(54, 189, 255, 0.2);
+        border-right: 273px solid rgba(54, 189, 255, 0.2);
+        border-left: 273px solid transparent;
+        border-bottom: 273px solid transparent;
+    }
+
+    &--right {
+        top: -761px;
+        right: -782px;
+        width: 1522px;
+        height: 1522px;
+        background-color: rgba(130, 129, 255, 0.2);
+        border-radius: 50%;
+        clip: rect(761px, 761px, 1522px, 0);
+    }
+
+    z-index: -999;
 }

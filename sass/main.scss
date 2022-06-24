@@ -3,6 +3,14 @@
 @import './utils/mixins';
 
 @import './base';
+@import './components/common/visually-hidden';
+@import './components/common/link';
+@import './components/common/section';
+@import './components/common/container';
+@import './components/common/card-set';
+@import './components/common/card';
+@import './components/common/start-button';
+@import './components/common/socials';
 
 @import './components/page';
 @import './components/decore';
@@ -11,21 +19,14 @@
 @import './components/page-header';
 @import './components/common/logo';
 @import './components/common/nav-list';
-@import './components/common/start-button';
 
-
-
-@import './components/common/section';
-@import './components/common/container';
 
 @import './components/main-block';
 @import './components/hero';
 @import './components/feature';
-
-@import './components/common/card-set';
-
-@import './components/common/card';
+@import './components/works';
 @import './components/brands';
+@import './components/start';
 
 
 @import './components/page-footer';

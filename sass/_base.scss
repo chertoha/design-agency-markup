@@ -2,20 +2,14 @@ html {}
 
 
 body {
-
-    cursor: url(../images/cursor.svg), pointer;
-
-    // max-width: 1920px;
-
-
     font-family: $font-primary;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: $text-default-dark-color;
 
-    // background-color: $background-primary-color;
-    background-color: teal;
+    background-color: $background-primary-color;
+    // background-color: teal;
 }
 
 h1,

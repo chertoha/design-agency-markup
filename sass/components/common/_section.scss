@@ -38,7 +38,12 @@
 }
 
 .section__text {
+    text-align: center;
     font-size: 20px;
     line-height: 1.7;
     color: $text-default-light-color;
+
+    &--align-left {
+        text-align: left;
+    }
 }
