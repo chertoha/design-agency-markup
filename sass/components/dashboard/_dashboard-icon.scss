@@ -1,0 +1,27 @@
+.dashboard-icon {
+    display: block;
+    fill: currentColor;
+
+    .window__sidebar>& {
+        width: 20px;
+        height: auto;
+    }
+
+    &__tools {
+        margin-top: auto;
+    }
+
+
+
+    &__sidebar-group {
+        @include set-items-margin (bottom, 20px);
+
+        // margin-bottom: 20px;
+
+        &:first-of-type {
+            margin-top: 110px;
+        }
+    }
+
+
+}
