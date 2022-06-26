@@ -68,6 +68,7 @@
 .card-tab {
 
     padding-bottom: 16px;
+    padding-bottom: 0;
 
     & .dashboard-icon {
         margin-left: 9px;
@@ -96,33 +97,65 @@
 
 
 .table {
+
     width: 100%;
     color: #9A98B8;
     border-spacing: 0;
+    font-size: 11px;
+    line-height: 1.277;
+    border-collapse: collapse;
+
+    & th {
+
+        color: #8478BA;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgba(51, 70, 129, 0.05);
+
+
+        &:first-child {
+            width: 40%;
+        }
+
+        &:nth-child(2) {
+            width: 40%;
+        }
+
+    }
+
 }
+
 
 .table__row {
 
-    font-size: 10.9655px;
-    line-height: 1.277;
+    border-bottom: 1px solid #E8ECEF;
+
+    &:last-child,
+    &:first-child {
+        border: none;
+    }
 }
 
+.table__row--head {}
 
-.table__row--head {
-    font-size: 10.9655px;
-    line-height: 1.277;
-    color: #8478BA;
-    background-color: rgba(51, 70, 129, 0.05);
-
-}
-
-.table__head-item {
-    font-size: 10.9655px;
-    line-height: 1.277;
-    color: #8478BA;
-}
-
+.table__row--body {}
 
 .table__item {
-    padding: 13px 9px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.table__icon {
+    margin-left: 5px;
+    display: inline-block;
+    // height: 100%;
+    vertical-align: middle;
 }

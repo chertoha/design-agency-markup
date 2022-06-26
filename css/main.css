@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
+th {
+  font-weight: normal;
+  text-align: unset;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -388,6 +393,7 @@ a {
   padding-left: 28px;
   padding-right: 20px;
   flex-grow: 1;
+  overflow: hidden;
 }
 
 .user-name {
@@ -488,7 +494,8 @@ a {
 
 .dashboard__field {
   position: relative;
-  padding: 8px;
+  padding: 8px 8px 20px 8px;
+  background-image: url(../../../images/dashboard/noise.png);
   background: linear-gradient(141.51deg, rgba(255, 255, 255, 0.4) 0.96%, rgba(255, 255, 255, 0.1) 99.4%);
   box-shadow: 0px 4px 24px -1px rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(10px);
@@ -518,7 +525,7 @@ a {
 }
 .client > .dashboard__field {
   width: 387px;
-  height: 300px;
+  height: 500px;
 }
 
 .approves {
@@ -526,7 +533,6 @@ a {
 }
 .approves > .dashboard__field {
   width: 256px;
-  height: 300px;
 }
 
 .graph-card {
@@ -582,6 +588,7 @@ a {
 
 .card-tab {
   padding-bottom: 16px;
+  padding-bottom: 0;
 }
 .card-tab .dashboard-icon {
   margin-left: 9px;
@@ -608,28 +615,46 @@ a {
   width: 100%;
   color: #9A98B8;
   border-spacing: 0;
+  font-size: 11px;
+  line-height: 1.277;
+  border-collapse: collapse;
+}
+.table th {
+  color: #8478BA;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(51, 70, 129, 0.05);
+}
+.table th:first-child {
+  width: 40%;
+}
+.table th:nth-child(2) {
+  width: 40%;
 }
 
 .table__row {
-  font-size: 10.9655px;
-  line-height: 1.277;
+  border-bottom: 1px solid #E8ECEF;
 }
-
-.table__row--head {
-  font-size: 10.9655px;
-  line-height: 1.277;
-  color: #8478BA;
-  background-color: rgba(51, 70, 129, 0.05);
-}
-
-.table__head-item {
-  font-size: 10.9655px;
-  line-height: 1.277;
-  color: #8478BA;
+.table__row:last-child, .table__row:first-child {
+  border: none;
 }
 
 .table__item {
-  padding: 13px 9px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table__item:last-child {
+  padding-bottom: 0;
+}
+
+.table__icon {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .feature {

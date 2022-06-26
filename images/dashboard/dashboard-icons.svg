@@ -9,11 +9,11 @@
 <path fill="none" stroke="#fe7c4b" style="stroke: var(--color6, #fe7c4b)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.8974" d="M9.682 6.055c-3.421 2.087-5.691 5.852-5.691 10.176"></path>
 <path fill="none" stroke="#23b899" style="stroke: var(--color7, #23b899)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.8974" d="M7.848 7.433c-2.375 2.174-3.858 5.303-3.858 8.798 0 1.755 0.389 3.423 1.089 4.924"></path>
 </symbol>
-<symbol id="dashboard_up-and-down-arrow-marked" viewBox="0 0 16 32">
+<symbol id="dashboard-up-and-down-arrow-marked" viewBox="0 0 16 32">
 <path fill="#8590b3" style="fill: var(--color8, #8590b3)" d="M9.873 4.787c-0.573-0.915-1.906-0.915-2.479 0l-4.671 7.465c-0.609 0.974 0.091 2.238 1.239 2.238h9.342c1.149 0 1.849-1.264 1.239-2.238l-4.671-7.465z"></path>
 <path fill="#56469e" style="fill: var(--color9, #56469e)" d="M9.873 27.112c-0.573 0.915-1.906 0.915-2.479 0l-4.671-7.465c-0.609-0.974 0.091-2.238 1.239-2.238h9.342c1.149 0 1.849 1.264 1.239 2.238l-4.671 7.465z"></path>
 </symbol>
-<symbol id="dashboard_up-and-down-arrow" viewBox="0 0 16 32">
+<symbol id="dashboard-up-and-down-arrow" viewBox="0 0 16 32">
 <path fill="#8590b3" style="fill: var(--color8, #8590b3)" d="M8.549 4.787c-0.573-0.915-1.906-0.915-2.479 0l-4.671 7.465c-0.609 0.974 0.091 2.238 1.239 2.238h9.342c1.149 0 1.849-1.264 1.239-2.238l-4.671-7.465z"></path>
 <path fill="#8590b3" style="fill: var(--color8, #8590b3)" d="M8.549 27.112c-0.573 0.915-1.906 0.915-2.479 0l-4.671-7.465c-0.609-0.974 0.091-2.238 1.239-2.238h9.342c1.149 0 1.849 1.264 1.239 2.238l-4.671 7.465z"></path>
 </symbol>
