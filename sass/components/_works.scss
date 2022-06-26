@@ -28,18 +28,18 @@
 
     @include set-items-margin(bottom, $card-bottom-margin);
 
-    &:not(:last-child) ::after {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%, 100%);
-        content: "";
-        width: 0;
-        height: $card-bottom-margin;
-        // background-color: black;
-        border-right: 1px dashed $background-default-light-color;
-        border-left: 1px dashed $background-default-light-color;
-    }
+    // &:not(:last-child) ::after {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 50%;
+    //     transform: translate(-50%, 100%);
+    //     content: "";
+    //     width: 0;
+    //     height: $card-bottom-margin;
+    //     // background-color: black;
+    //     border-right: 1px dashed $background-default-light-color;
+    //     border-left: 1px dashed $background-default-light-color;
+    // }
 }
 
 .works-card__item {
@@ -74,10 +74,47 @@
 
 }
 
+
+.works-card__images {
+    // position: relative;
+
+    height: 100%;
+}
+
+
+
+.works__bakcdrop-card-1 {
+    padding: 8px;
+    bottom: 45px;
+    left: 40px;
+    // z-index: 1;
+}
+
+.works__bakcdrop-card-2 {
+    padding: 8px;
+    bottom: 125px;
+    left: 100px;
+    // z-index: 1;
+}
+
+.works__bakcdrop-card-3 {
+    padding: 7px;
+    bottom: 25px;
+    left: 300px;
+    // z-index: 3;
+}
+
 .works-card__content {
     padding: 80px 70px 80px 0;
 }
 
+
+.works-card_big-image {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    // height: 100%;
+}
 
 .works__decore {
 

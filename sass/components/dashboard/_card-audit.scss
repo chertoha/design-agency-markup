@@ -1,0 +1,86 @@
+.card-audit {
+    padding: 17px 27px 17px 17px;
+
+    width: 226px;
+    height: 166px;
+
+    background-color: #FFFFFF;
+    border: 0.557047px solid rgba(232, 236, 239, 0.2);
+    border-radius: 5.57047px;
+}
+
+
+.card-audit__title {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 8.91275px;
+    line-height: 12px;
+    color: #3B3E43;
+}
+
+.card-audit__date {
+    margin-bottom: 30px;
+    font-size: 6.68456px;
+    line-height: 9px;
+    color: #595E64;
+}
+
+.pie-chart {
+    display: flex;
+}
+
+.pie-chart__image {
+    margin-right: 25px;
+}
+
+.pie-chart__legent {
+    padding-top: 10px;
+    font-size: 6.68456px;
+    line-height: 9px;
+    color: #3B3E43;
+}
+
+.pie-chart__item {
+
+    display: flex;
+    align-items: center;
+
+    @include set-items-margin (bottom, 6px)
+}
+
+.pie-chart__dot {
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+
+    background-color: #3E7EF5;
+
+    &--blue {
+        background-color: #3E7EF5;
+    }
+
+    &--green {
+        background-color: #6DD230;
+    }
+
+    &--violet {
+        background-color: #8978FF;
+    }
+
+    &--cyan {
+        background-color: #23B899;
+    }
+
+    &--orange {
+        background-color: #FE7C4B;
+    }
+
+}
+
+.pie-chart__param {
+    width: 40px;
+    margin-right: 6px;
+}
+
+.pie-chart__value {}

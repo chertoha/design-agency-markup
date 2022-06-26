@@ -34,6 +34,24 @@
         z-index: -1;
     }
 
+    &__graph-card {
+        width: 370px;
+    }
+
+    &__card-project {
+        position: absolute;
+        bottom: -93px;
+        right: 178px;
+
+        width: 242px;
+
+
+
+        & .card-project__image {
+            background-image: url(../../../images/dashboard/card-project__image_2.jpg);
+        }
+    }
+
     // overflow: hidden;
 }
 
@@ -256,4 +274,29 @@
 
 .recent {
     width: 100%;
+}
+
+
+.dashboard-label {
+    position: absolute;
+    left: 41px;
+    top: 168px;
+    padding: 16px 25px 15px 17px;
+    @extend %flex-between;
+    width: 140px;
+
+    font-weight: 500;
+    font-size: 12.1585px;
+    line-height: 1.36;
+    /* identical to box height, or 17px */
+    color: #201950;
+
+    background: #FFFFFF;
+    box-shadow: 7px 17px 28px rgba(35, 21, 91, 0.1);
+    border-radius: 9.79139px;
+}
+
+.dashboard__backdrop {
+    bottom: -57px;
+    left: -103px;
 }
