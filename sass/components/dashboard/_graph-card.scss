@@ -1,11 +1,25 @@
 .graph-card {
-    padding: 27px;
+
     background-color: #fff;
     border-radius: 9.79139px;
 
     @include set-items-margin (bottom, 9px);
 
+    &--chart {
+        padding: 27px;
+    }
+
+    &--tab {
+        padding: 27px;
+    }
+
+    &--project {
+        padding: 15px;
+    }
+
+
 }
+
 
 
 
@@ -37,11 +51,8 @@
     @extend %flex-between;
 }
 
-
-.card-thumb__content {}
-
-
 .graph-card__day {
+    margin-bottom: 9px;
     font-size: 10.9655px;
     line-height: 1.277;
     color: #334681;
@@ -52,110 +63,4 @@
     font-size: 23.7586px;
     line-height: 1.3;
     color: #6846AD;
-}
-
-
-
-.card-thumb__content {}
-
-.graph-card__day {
-    margin-bottom: 9px;
-    font-size: 10.9655px;
-    line-height: 1.277;
-    color: #334681;
-}
-
-.card-tab {
-
-    padding-bottom: 16px;
-    padding-bottom: 0;
-
-    & .dashboard-icon {
-        margin-left: 9px;
-        fill: #8590B3;
-
-    }
-
-    & .graph-card__title {
-        margin: 0;
-    }
-}
-
-.card-tab__title-row {
-    margin-bottom: 9px;
-    display: flex;
-    align-items: center;
-}
-
-
-.card-tab__summary {
-    margin-left: auto;
-    font-size: 12.7931px;
-    line-height: 1.329;
-    color: #201950;
-}
-
-
-.table {
-
-    width: 100%;
-    color: #9A98B8;
-    border-spacing: 0;
-    font-size: 11px;
-    line-height: 1.277;
-    border-collapse: collapse;
-
-    & th {
-
-        color: #8478BA;
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 10px;
-        padding-right: 10px;
-        background-color: rgba(51, 70, 129, 0.05);
-
-
-        &:first-child {
-            width: 40%;
-        }
-
-        &:nth-child(2) {
-            width: 40%;
-        }
-
-    }
-
-}
-
-
-.table__row {
-
-    border-bottom: 1px solid #E8ECEF;
-
-    &:last-child,
-    &:first-child {
-        border: none;
-    }
-}
-
-.table__row--head {}
-
-.table__row--body {}
-
-.table__item {
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    &:last-child {
-        padding-bottom: 0;
-    }
-}
-
-.table__icon {
-    margin-left: 5px;
-    display: inline-block;
-    // height: 100%;
-    vertical-align: middle;
 }

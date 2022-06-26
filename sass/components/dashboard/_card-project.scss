@@ -1,0 +1,56 @@
+.card-project {
+    font-size: 9.79139px;
+    line-height: 1.8;
+    color: #9A98B8;
+}
+
+.graph-card__title--project {
+    margin-bottom: 5px;
+}
+
+.graph-card__text--project {
+    margin-bottom: 8px;
+    color: #9A98B8;
+}
+
+.card-project__icons {
+    padding-bottom: 9px;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-project__items {
+
+
+    @extend %flex-center;
+    width: 33px;
+    height: 33px;
+
+    border: 1px solid rgba(80, 62, 157, 0.5);
+    border-radius: 50%;
+
+    @include set-items-margin (right, 12px);
+}
+
+.card-project__footer {
+    @extend %flex-between;
+}
+
+.card-project__comments {
+    @extend %flex-center;
+
+    &>.dashboard-icon {
+        margin-right: 6px;
+    }
+}
+
+.card-project__image {
+    margin-bottom: 8px;
+    height: 131px;
+
+    background-image: url(../../../images/dashboard/card-project__image.jpg);
+    border-radius: 9.79139px;
+    background-size: cover;
+
+}
