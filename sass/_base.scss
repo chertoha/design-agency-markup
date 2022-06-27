@@ -1,9 +1,10 @@
 html {
-    overflow: auto;
+    // overflow: auto;
 }
 
 
 body {
+    overflow-x: hidden;
     font-family: $font-primary;
     font-weight: 400;
     font-size: 16px;

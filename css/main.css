@@ -10,11 +10,8 @@
   align-items: center;
 }
 
-html {
-  overflow: auto;
-}
-
 body {
+  overflow-x: hidden;
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -192,7 +189,6 @@ th {
   max-width: 1920px;
   height: 100%;
   background-color: transparent;
-  overflow: hidden;
 }
 
 .decore {
@@ -205,6 +201,7 @@ th {
   background: linear-gradient(249.78deg, #35D3FF -0.64%, #A963FB 103.6%);
   border-radius: 50%;
   overflow: hidden;
+  clip: rect(272px, 2377px, 1385px, 457px);
 }
 
 .decore__left-top {
@@ -1145,6 +1142,7 @@ th {
   border-right: 273px solid rgba(54, 189, 255, 0.2);
   border-left: 273px solid transparent;
   border-bottom: 273px solid transparent;
+  clip: rect(0, 690px, 690px, 97px);
 }
 .feature__decore--right {
   top: -576px;
@@ -1153,7 +1151,7 @@ th {
   height: 1522px;
   background-color: rgba(130, 129, 255, 0.2);
   border-radius: 50%;
-  clip: rect(761px, 761px, 1522px, 0);
+  clip: rect(761px, 740px, 1522px, 0);
 }
 
 .works {
@@ -1263,7 +1261,7 @@ th {
   width: 1140px;
   height: 1140px;
   background-color: #52B7FE;
-  clip: rect(678px, 1140px, 1140px, 570px);
+  clip: rect(678px, 1140px, 1140px, 640px);
 }
 .works__decore--bottom-left {
   left: -625px;
@@ -1271,7 +1269,7 @@ th {
   width: 1140px;
   height: 1140px;
   background-color: #58B4FE;
-  clip: rect(0, 1140px, 520px, 570px);
+  clip: rect(0, 1140px, 520px, 626px);
 }
 .works__decore--center {
   left: 700px;
@@ -1295,7 +1293,7 @@ th {
   width: 1140px;
   height: 1140px;
   background-color: #7E8DFC;
-  clip: rect(0, 570px, 570px, 0);
+  clip: rect(0, 521px, 570px, 0);
 }
 
 .brand__title {

@@ -80,6 +80,7 @@
         border-right: 273px solid rgba(54, 189, 255, 0.2);
         border-left: 273px solid transparent;
         border-bottom: 273px solid transparent;
+        clip: rect(0, 690px, 690px, 97px);
     }
 
     &--right {
@@ -89,7 +90,7 @@
         height: 1522px;
         background-color: rgba(130, 129, 255, 0.2);
         border-radius: 50%;
-        clip: rect(761px, 761px, 1522px, 0);
+        clip: rect(761px, 740px, 1522px, 0);
     }
 
     z-index: -999;
