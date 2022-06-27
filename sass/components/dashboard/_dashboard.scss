@@ -29,7 +29,8 @@
         height: 100%;
         content: '';
 
-        background-image: url(../../../images/dashboard/noise.png);
+        // background-image: url(../../../images/dashboard/noise.png);
+        background-image: url(./../images/dashboard/noise.png);
         opacity: 0.12;
         z-index: -1;
     }
@@ -48,7 +49,8 @@
 
 
         & .card-project__image {
-            background-image: url(../../../images/dashboard/card-project__image_2.jpg);
+            // background-image: url(../../../images/dashboard/card-project__image_2.jpg);
+            background-image: url(./../images/dashboard/card-project__image_2.jpg);
         }
     }
 
@@ -176,7 +178,8 @@
         width: 16px;
         height: 16px;
         margin-right: 6px;
-        background-image: url(../../../images/dashboard/user-avatar.png);
+        // background-image: url(../../../images/dashboard/user-avatar.png);
+        background-image: url(./../images/dashboard/user-avatar.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -221,7 +224,8 @@
     position: relative;
     padding: 8px 8px 20px 8px;
 
-    background-image: url(../../../images/dashboard/noise.png);
+    // background-image: url(../../../images/dashboard/noise.png);
+    background-image: url(./../images/dashboard/noise.png);
     background: linear-gradient(141.51deg, rgba(255, 255, 255, 0.4) 0.96%, rgba(255, 255, 255, 0.1) 99.4%);
     box-shadow: 0px 4px 24px -1px rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);

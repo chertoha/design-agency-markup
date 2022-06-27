@@ -1,5 +1,5 @@
 .link {
-    cursor: url(../../../images/cursor.svg), pointer;
+    cursor: url(./../images/cursor.svg), pointer;
 
 
     transition: color $default-transition-time ease-in, fill $default-transition-time ease-in;

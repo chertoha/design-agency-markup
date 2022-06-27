@@ -28,7 +28,8 @@
         height: 100%;
         content: '';
 
-        background-image: url(../../../images/dashboard/noise.png);
+        // background-image: url(../../../images/dashboard/noise.png);
+        background-image: url(./../images/dashboard/noise.png);
         opacity: 0.1;
         z-index: -1;
     }
@@ -69,7 +70,8 @@
             content: '';
 
             background-color: #6F6C99;
-            mask-image: url(../../../images/dashboard/3-vertical-dots.svg);
+            // mask-image: url(../../../images/dashboard/3-vertical-dots.svg);
+            mask-image: url(./../images/dashboard/3-vertical-dots.svg);
 
 
         }
@@ -111,11 +113,13 @@
     }
 
     &--avatar-1 {
-        background-image: url(../../../images/dashboard/avatar_1.jpg);
+        // background-image: url(../../../images/dashboard/avatar_1.jpg);
+        background-image: url(./../images/dashboard/avatar_1.jpg);
     }
 
     &--avatar-2 {
-        background-image: url(../../../images/dashboard/avatar_2.jpg);
+        // background-image: url(../../../images/dashboard/avatar_2.jpg);
+        background-image: url(./../images/dashboard/avatar_2.jpg);
     }
 }
 
