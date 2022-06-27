@@ -732,6 +732,9 @@ th {
 .card-project__items:last-child {
   margin-right: 0;
 }
+.card-project__items--shadow {
+  box-shadow: 0px 9.79139px 14.6871px rgba(0, 0, 0, 0.05);
+}
 
 .card-project__comments > .dashboard-icon {
   margin-right: 6px;
@@ -1181,6 +1184,17 @@ th {
 .works-card:last-child {
   margin-bottom: 0;
 }
+.works-card:not(:last-child)::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  content: "";
+  width: 0;
+  height: 40px;
+  border-right: 1px dashed #ffffff;
+  border-left: 1px dashed #ffffff;
+}
 
 .works-card__item {
   flex-basis: 50%;
@@ -1324,9 +1338,16 @@ th {
 }
 
 .start {
+  position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
   background: linear-gradient(249.78deg, #35D3FF -0.64%, #A963FB 103.6%);
+}
+.start__card-project {
+  width: 242px;
+}
+.start__card-project .card-project__image {
+  background-image: url(../../../images/dashboard/card-project__image_2.jpg);
 }
 
 .start__container {
@@ -1351,6 +1372,86 @@ th {
 
 .start__text {
   margin-bottom: 50px;
+}
+
+.start__image-wrapper {
+  position: relative;
+}
+
+.start__backdrop {
+  width: 552px;
+  height: 460px;
+  top: 0;
+  right: 0;
+}
+
+.start__backdrop-card {
+  width: 410px;
+  height: 308px;
+  position: absolute;
+  bottom: -63px;
+  left: 52px;
+}
+
+.start__card-audit {
+  padding: 27px 46px 30px 28px;
+  width: 100%;
+  height: 100%;
+}
+.start__card-audit .card-audit__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14.8878px;
+  line-height: 1.277;
+  color: #3B3E43;
+}
+.start__card-audit .card-audit__date {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 11.1658px;
+  line-height: 1.29;
+  color: #595E64;
+}
+.start__card-audit .pie-chart__image {
+  width: 130px;
+  height: 130px;
+}
+.start__card-audit .pie-chart__legent {
+  font-weight: 400;
+  font-size: 11.1658px;
+  line-height: 15px;
+  color: #3B3E43;
+}
+.start__card-audit .pie-chart__item {
+  margin-bottom: 10px;
+}
+.start__card-audit .pie-chart__item:last-child {
+  margin-bottom: 0;
+}
+.start__card-audit .pie-chart__dot {
+  width: 9px;
+  height: 9px;
+  margin-right: 10px;
+}
+.start__card-audit .pie-chart__param {
+  width: 65px;
+  margin-right: 10px;
+}
+
+.start__backdrop-project-card {
+  left: 250px;
+  bottom: 117px;
+}
+
+.start__decore {
+  position: absolute;
+  bottom: 23px;
+  right: 298px;
+  width: 680px;
+  height: 680px;
+  border-radius: 50%;
+  clip: rect(0, 680px, 340px, 340px);
+  background: linear-gradient(304.55deg, #8978FF -1.27%, rgba(137, 120, 255, 0) 96.43%);
 }
 
 .page-footer {

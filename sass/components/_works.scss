@@ -28,18 +28,21 @@
 
     @include set-items-margin(bottom, $card-bottom-margin);
 
-    // &:not(:last-child) ::after {
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 50%;
-    //     transform: translate(-50%, 100%);
-    //     content: "";
-    //     width: 0;
-    //     height: $card-bottom-margin;
-    //     // background-color: black;
-    //     border-right: 1px dashed $background-default-light-color;
-    //     border-left: 1px dashed $background-default-light-color;
-    // }
+    &:not(:last-child)::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        content: "";
+        width: 0;
+        height: $card-bottom-margin;
+        // background-color: black;
+        border-right: 1px dashed $background-default-light-color;
+        border-left: 1px dashed $background-default-light-color;
+    }
+
+
+
 }
 
 .works-card__item {
