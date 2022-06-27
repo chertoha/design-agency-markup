@@ -1331,6 +1331,10 @@ th {
 
 .brand-list__link {
   display: block;
+  transition: transform 250ms ease-in;
+}
+.brand-list__link:hover {
+  transform: scale(1.05);
 }
 
 .brand-list__icon {
